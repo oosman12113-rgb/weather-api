@@ -4,7 +4,7 @@ This is a API application that returns the current temperature upon request usin
 
 'GET /locations/{zip-code}'
 
-## Optional Query Paramter
+## Optional Query Parameter
 
 - 'scale=Fahrenheit' (default)
 - 'scale=Celsius'
@@ -83,4 +83,4 @@ Express Documentaion: https://expressjs.com/
 ## Resources used
 
 - AI tools were used to help with understanding concepts and debugging issues
-- Utilized many Google searches for correct source code and structure
+- Utilized Google searches for correct source code and structure
