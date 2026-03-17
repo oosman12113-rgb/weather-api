@@ -1,8 +1,8 @@
 # Weather API
 
-This is a API application that returns the current temperature upon request using a given U.S. ZIP code.
+This is an API application that returns the current temperature for a given U.S. ZIP code.
 
-'GET /locations/{zip-code}'
+GET /locations/{zip-code}
 
 ## Optional Query Parameter
 
@@ -42,7 +42,7 @@ Replace placeholder with actual key
 3. Start server
 
 ```bash
-npm test
+npm start
 ```
 
 4. Open in local browser:
@@ -57,7 +57,7 @@ npm test
 
 ## Design Rationale
 
-- Used Node.js and Express** to build the API. This gave an efficient way to handle http routes
+- Used Node.js and Express** to build the API. This gave an simple way to handle http routes
 - Used *OpenWeather API* to retrieive temperature data ('Other api's of your choosing can be used')
 - Project was seprated into multiple different files (services, routes, etc.) to ensure code is organized.
 
@@ -77,7 +77,7 @@ npm test
 
 - Openweather API: https://openweathermap.org/
 - Node.js download: https://nodejs.org/en/download
-Express Documentaion: https://expressjs.com/
+Express Documentation: https://expressjs.com/
 
 
 ## Resources used
